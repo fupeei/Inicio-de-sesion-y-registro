@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section{
+    display: flex;
+    gap: 200px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.error_login {
+    background-color: rgb(253, 209, 209);
+    color: red;
+    
+}
